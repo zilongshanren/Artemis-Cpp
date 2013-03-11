@@ -61,20 +61,14 @@ namespace artemis {
     
     //Might change to non template
     template<typename c>
-    void removeComponent() {
-      entityManager->removeComponent(*this,ComponentTypeManager::getTypeFor<c>());
-    }
+    void removeComponent();
     
     void removeComponent(ComponentType & type);
-    
     
     Component * getComponent(ComponentType & type);
     
     template<typename c>
-    Component * getComponent() {
-      return (c*)entityManager->getComponent(*this,ComponentTypeManager::getTypeFor<c>());
-    }
-    
+    Component * getComponent();
     ImmutableBag<Component*> & getComponents();
     
     bool isActive();

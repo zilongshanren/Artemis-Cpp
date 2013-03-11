@@ -20,9 +20,7 @@ namespace artemis {
     EntitySystem* setSystem(EntitySystem * stm);
     
     template<typename eSystem>
-    EntitySystem* getSystem() {
-      return (eSystem*)(systems[&typeid(eSystem)]);
-    }
+    EntitySystem* getSystem();
     
   private:
     World * world;

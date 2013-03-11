@@ -5,8 +5,12 @@
 using namespace std;
 
 namespace artemis {
+  EntitySystem::EntitySystem()
+  {
+    this->world = NULL;
+  };
   
-	EntitySystem::~EntitySystem() {
+  EntitySystem::~EntitySystem() {
 		world = NULL;
 	}
   
@@ -49,4 +53,14 @@ namespace artemis {
 		systemBit = bit;
 	}
   
+  template<typename component_type>
+  void EntitySystem::addComponentType()
+  {
+    //Add Bits to typeflags
+    typeFlags |= ComponentTypeManager::getBit<component_type>();
+  }
+  
+  std::bitset<BITSIZE> EntitySystem::getSystemBit() {
+    return systemBit;
+  }
 };

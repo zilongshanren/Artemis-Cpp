@@ -24,6 +24,17 @@ namespace artemis {
 		componentTypes.clear();
 	}
   
+  template<typename c>
+  ComponentType & ComponentTypeManager::getTypeFor()
+  {
+      //Check if we are being legal with components and shizzle
+      //Component * c = (component*)0;
+      
+      //assert((std::is_base_of<Component, c >::value == true));
+      
+      return getTypeFor(typeid(c));
+  }
+  
   std::map<const std::type_info*,ComponentType*,
            type_info_comparator> ComponentTypeManager::componentTypes;
 }

@@ -31,15 +31,7 @@ namespace artemis {
      * Gets the component type object
      **/
     template<typename c>
-    static ComponentType & getTypeFor() {
-      
-      //Check if we are being legal with components and shizzle
-      //Component * c = (component*)0;
-      
-      //assert((std::is_base_of<Component, c >::value == true));
-      
-      return getTypeFor(typeid(c));
-    }
+    static ComponentType & getTypeFor();
     
     /**
      * Gets the bit set of a component

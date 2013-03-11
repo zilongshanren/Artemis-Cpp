@@ -1,0 +1,59 @@
+
+<project name="Cocos2d-xToLua" default="create-lua-bindings" basedir=".">
+    <description>
+        Utilises tolua++ to create the lua bindings to expose artemis functionality to lua
+    </description>
+    <property name="tolua++" location="tolua++"/>
+
+  <target name="artemis-bindings">
+    <echo message="Calling tolua++" />
+    <exec executable="${tolua++}">
+      <arg value="-L" />
+      <arg value="basic.lua" />
+      <arg value="-o"/>
+      <arg value="Artemis.cpp"/>
+      <arg value="Artemis.pkg"/>
+    </exec>
+    <echo message="Patching resultant lua bindings" />
+
+    <replace file="Artemis.cpp">
+      <replacetoken><![CDATA[*((LUA_FUNCTION*)]]></replacetoken>
+      <replacevalue><![CDATA[(]]></replacevalue>
+    </replace>
+
+    <replace file="Artemis.cpp">
+      <replacetoken><![CDATA[unsigned void* tolua_ret = (unsigned void*)  self->getTiles();]]></replacetoken>
+      <replacevalue><![CDATA[unsigned int* tolua_ret = (unsigned int*)  self->getTiles();]]></replacevalue>
+    </replace>
+
+    <replace file="Artemis.cpp">
+      <replacetoken><![CDATA[*((LUA_FUNCTION*)]]></replacetoken>
+      <replacevalue><![CDATA[(]]></replacevalue>
+    </replace>
+
+    <replace file="Artemis.cpp">
+      <replacetoken><![CDATA[tolua_usertype(tolua_S,"LUA_FUNCTION");]]></replacetoken>
+      <replacevalue><![CDATA[]]></replacevalue>
+    </replace>
+    
+    <replace file="Artemis.cpp">
+      <replacetoken><![CDATA[*((LUA_TABLE*)]]></replacetoken>
+      <replacevalue><![CDATA[(]]></replacevalue>
+    </replace>
+
+    <replace file="Artemis.cpp">
+      <replacetoken><![CDATA[tolua_usertype(tolua_S,"LUA_TABLE");']]></replacetoken>
+      <replacevalue><![CDATA[]]></replacevalue>
+    </replace>
+
+
+    <replace file="Artemis.cpp">
+      <replacetoken><![CDATA[toluafix_pushusertype_ccobject(tolua_S,(void*)tolua_ret]]></replacetoken>
+      <replacevalue><![CDATA[int nID = (tolua_ret) ? (int)tolua_ret->m_uID : -1;
+    int* pLuaID = (tolua_ret) ? &tolua_ret->m_nLuaID : NULL;
+    toluafix_pushusertype_class(tolua_S, nID, pLuaID, (void*)tolua_ret]]></replacevalue>
+    </replace>
+
+  </target>
+  <target name="create-lua-bindings" depends="artemis-bindings" />
+</project>

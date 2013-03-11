@@ -28,17 +28,12 @@ namespace artemis {
     void removeComponent(Entity & e, ComponentType & type);
     
     template<typename c>
-    void removeComponent(Entity & e) {
-      removeComponent(e,ComponentTypeManager::getTypeFor<c>());
-    }
+    void removeComponent(Entity & e);
     
     Component * getComponent(Entity & e, ComponentType & type);
     
     template<typename c>
-    Component * getComponent(Entity & e) {
-      ComponentType type = ComponentTypeManager::getTypeFor<c>();
-      return getComponent(e,type);
-    }
+    Component * getComponent(Entity & e);
     
     Entity& getEntity(int entityId);
     int getEntityCount();

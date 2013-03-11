@@ -55,6 +55,11 @@ namespace artemis {
     return stm;
   }
   
+  template<typename eSystem>
+  EntitySystem* SystemManager::getSystem() {
+    return (eSystem*)(systems[&typeid(eSystem)]);
+  }
+  
   SystemManager::~SystemManager(){
     systems.clear();
     bagged.deleteData();

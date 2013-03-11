@@ -25,12 +25,7 @@ namespace artemis {
    */
 	class EntitySystem {
   public:
-    void printTypeFlag() {
-      std::cout << typeFlags;
-    }
-    std::bitset<BITSIZE> getSystemBit() {
-      return systemBit;
-    }
+    std::bitset<BITSIZE> getSystemBit();
     void setSystemBit(std::bitset<BITSIZE> bit);
     virtual ~EntitySystem();
     /*override these functions*/
@@ -40,16 +35,13 @@ namespace artemis {
     void process();
     int getEntityCount();
   protected:
-    EntitySystem() { this->world = NULL; };
+    EntitySystem();
     World * world;
     /**
      * Call this in the constructor of the derived system
      */
     template<typename component_type>
-    void addComponentType() {
-      //Add Bits to typeflags
-      typeFlags |= ComponentTypeManager::getBit<component_type>();
-    }
+    void addComponentType();
     /*override these functions*/
     virtual void begin() {};
     virtual void end() {};

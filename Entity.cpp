@@ -111,4 +111,15 @@ namespace artemis {
   void Entity::remove() {
     world->deleteEntity(*this);
   }
+  
+  template<typename c>
+  void Entity::removeComponent()
+  {
+    entityManager->removeComponent(*this,ComponentTypeManager::getTypeFor<c>());
+  }
+  
+  template<typename c>
+  Component * Entity::getComponent() {
+    return (c*)entityManager->getComponent(*this,ComponentTypeManager::getTypeFor<c>());
+  }
 };

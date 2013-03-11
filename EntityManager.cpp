@@ -189,4 +189,15 @@ namespace artemis {
     //Does not own world. Only points to it.
     this->world = NULL;  
   }
+  
+  template<typename c>
+  void EntityManager::removeComponent(Entity & e) {
+    removeComponent(e,ComponentTypeManager::getTypeFor<c>());
+  }
+  
+  template<typename c>
+  Component * EntityManager::getComponent(Entity & e) {
+    ComponentType type = ComponentTypeManager::getTypeFor<c>();
+    return getComponent(e,type);
+  }
 };
