@@ -7,12 +7,10 @@ cmake_minimum_required(VERSION 2.6)
 # =================================================================
 # Setup these variables and the rest of the CMakeLists.txt won't need more changes.
 set(PROJECT_NAME "Artemis-Cpp")
-# set(PROJECT_EXECUTABLE_NAME "Poles")
 set(PROJECT_LIBRARY_NAME "artemis")
 set(PROJECT_SOURCE_DIR "${CMAKE_SOURCE_DIR}/src")
 set(PROJECT_HEADERS_DIR "${CMAKE_SOURCE_DIR}/include")
-#set(PROJECT_MAIN_FILE "${PROJECT_SOURCE_DIR}/main.cpp")
-#set(PROJECT_RESOURCES_DIR "${CMAKE_SOURCE_DIR}/platforms")
+
 
 
 # =================================================================
@@ -23,10 +21,6 @@ project("${PROJECT_NAME}")
 # Specify build output directories
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
-#set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
-
-# Define executable to be created
-#add_executable(${PROJECT_EXECUTABLE_NAME} ${PROJECT_MAIN_FILE})
 
 
 # =================================================================
@@ -62,7 +56,6 @@ ENDMACRO()
 # =================================================================
 cmake_policy( SET CMP0009 NEW)      # Prevents cmake from following symbolic links using GLOB
 file(GLOB_RECURSE PROJECT_SOURCE_FILES "${PROJECT_SOURCE_DIR}/*.cpp")
-#list(REMOVE_ITEM PROJECT_SOURCE_FILES ${PROJECT_MAIN_FILE})
 
 
 # =================================================================
@@ -78,4 +71,12 @@ set(PROJECT_SOURCE_FILES ${PROJECT_SOURCE_FILES} ${PROJECT_HEADER_FILES})
 # Link sources
 # =================================================================
 add_library(${PROJECT_LIBRARY_NAME} ${PROJECT_SOURCE_FILES})
-#target_link_libraries(${PROJECT_EXECUTABLE_NAME} ${PROJECT_LIBRARY_NAME})
+
+# =================================================================
+# Install Target
+# =================================================================
+# Copy header files
+INSTALL(FILES ${PROJECT_HEADER_FILES} DESTINATION "/usr/local/include/Artemis")
+
+# Copy library
+INSTALL(FILES "${CMAKE_BINARY_DIR}/lib/lib${PROJECT_LIBRARY_NAME}.a" DESTINATION "/usr/local/lib")
