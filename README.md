@@ -6,6 +6,24 @@ A C++ port of [Artemis Entity System Framework](http://gamadu.com/artemis/tutori
 The port was orignially written by [Sidar Talei](https://bitbucket.org/stalei/artemiscpp/src), in which he used several C++11 features such as deleted function, variadic templates, nullptr, etc…
 We wanted the framework to be portable, so we removed all C++11 feature usages.
 
+## Compiling
+
+### CMake
+
+CMake is a cross-platform, open source build system. You can find more information about CMake [here](https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDcQFjAA&url=http%3A%2F%2Fwww.cmake.org%2F&ei=ZRhEUtGFA6el4ATa64HIBw&usg=AFQjCNEmd4p8aUoUmYlZxJdYtwYJnn1-cw&sig2=rna57CyVBIF9Oxh-i-_4FQ&bvm=bv.53217764,d.bGE).
+
+It is very simple to compile Artemis-Cpp using CMake. Just follow these steps:
+
+1. Install CMake in your system.
+2. Make sure you have cmake in your `$PATH` variable.
+3. Open a new terminal and go to Artemis-Cpp's folder.
+4. `mkdir build`.
+5. `cd build`.
+6. `cmake ..`.
+7. `make`.
+8. `sudo make install`.
+9. Enjoy.
+
 ### PORTED CLASSES
 
 - Component
@@ -40,7 +58,7 @@ public:
     float velocityX;
     float velocityY;
 
-    MovementComponent(float velocityX, float velocityY)
+    VelocityComponent(float velocityX, float velocityY)
     {
         this->velocityX = velocityX;
         this->velocityY = velocityY;
@@ -71,7 +89,7 @@ private:
 
 public:
     MovementSystem() {
-        addComponentType<MovementComponent>();
+        addComponentType<VelocityComponent>();
         addComponentType<PositionComponent>();
     };
 
@@ -123,7 +141,6 @@ int main(int argc, char **argv) {
 }
 ```
 ### LOGS
-
 - Dec 10, 2012:
 	- [Fixed  bug](https://github.com/vinova/Artemis-Cpp/commit/449ee9d3167d6bdf8056a8da7554ebec016e5b65): calling Bag.get(index) not returning NULL when index > bag's size,
 	which leads to memory violation when the number of entities becomes greater than initialized entities bag size.
