@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Artemis-Cpp.xcscheme</key>
+		<key>Artemis.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>22DDD83717FD9D4600751412</key>
+		<key>22DDD8BC17FDB98F00751412</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>22DDD84E17FD9D4600751412</key>
+		<key>22DDD8D317FDB98F00751412</key>
 		<dict>
 			<key>primary</key>
 			<true/>

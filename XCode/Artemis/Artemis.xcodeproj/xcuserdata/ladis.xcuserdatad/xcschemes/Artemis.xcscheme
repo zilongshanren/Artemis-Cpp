@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22DDD83717FD9D4600751412"
-               BuildableName = "Artemis-Cpp.framework"
-               BlueprintName = "Artemis-Cpp"
-               ReferencedContainer = "container:Artemis-Cpp.xcodeproj">
+               BlueprintIdentifier = "22DDD8BC17FDB98F00751412"
+               BuildableName = "Artemis.framework"
+               BlueprintName = "Artemis"
+               ReferencedContainer = "container:Artemis.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22DDD84E17FD9D4600751412"
-               BuildableName = "Artemis-CppTests.xctest"
-               BlueprintName = "Artemis-CppTests"
-               ReferencedContainer = "container:Artemis-Cpp.xcodeproj">
+               BlueprintIdentifier = "22DDD8D317FDB98F00751412"
+               BuildableName = "ArtemisTests.xctest"
+               BlueprintName = "ArtemisTests"
+               ReferencedContainer = "container:Artemis.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

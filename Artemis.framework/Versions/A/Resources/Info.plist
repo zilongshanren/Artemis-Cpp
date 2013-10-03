@@ -7,13 +7,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>Artemis-Cpp</string>
+	<string>Artemis</string>
 	<key>CFBundleIdentifier</key>
-	<string>Artemis-Cpp.Artemis-Cpp</string>
+	<string>Artemis.Artemis</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Artemis-Cpp</string>
+	<string>Artemis</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
