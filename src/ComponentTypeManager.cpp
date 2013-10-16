@@ -1,4 +1,4 @@
-#include "ComponentTypeManager.h"
+#include "Artemis/ComponentTypeManager.h"
 
 namespace artemis {
 	ComponentType & ComponentTypeManager::getTypeFor(const std::type_info &t) {

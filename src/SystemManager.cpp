@@ -1,7 +1,7 @@
-#include "SystemManager.h"
-#include "World.h"
-#include "EntitySystem.h"
-#include "SystemBitManager.h"
+#include "Artemis/SystemManager.h"
+#include "Artemis/World.h"
+#include "Artemis/EntitySystem.h"
+#include "Artemis/SystemBitManager.h"
 
 namespace artemis {
 	

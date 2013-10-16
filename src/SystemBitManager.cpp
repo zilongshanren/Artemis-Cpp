@@ -1,4 +1,4 @@
-#include "SystemBitManager.h"
+#include "Artemis/SystemBitManager.h"
 
 namespace artemis {
 	int SystemBitManager::POS = 0;

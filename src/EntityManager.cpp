@@ -1,10 +1,10 @@
-#include "EntityManager.h"
-#include "EntitySystem.h"
-#include "SystemManager.h"
-#include "BitSize.h"
-#include "World.h"
-#include "Component.h"
-#include "Entity.h"
+#include "Artemis/EntityManager.h"
+#include "Artemis/EntitySystem.h"
+#include "Artemis/SystemManager.h"
+#include "Artemis/BitSize.h"
+#include "Artemis/World.h"
+#include "Artemis/Component.h"
+#include "Artemis/Entity.h"
 
 namespace artemis {
   EntityManager::EntityManager(World& world) : componentsByType(64) {

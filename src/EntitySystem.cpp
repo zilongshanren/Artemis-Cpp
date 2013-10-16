@@ -1,6 +1,6 @@
-#include "EntitySystem.h"
-#include "World.h"
-#include "Entity.h"
+#include "Artemis/EntitySystem.h"
+#include "Artemis/World.h"
+#include "Artemis/Entity.h"
 
 using namespace std;
 
