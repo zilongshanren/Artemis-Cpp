@@ -1,7 +1,7 @@
-#include "Entity.h"
+#include "Artemis/Entity.h"
 #include <sstream>
-#include "Component.h"
-#include "World.h"
+#include "Artemis/Component.h"
+#include "Artemis/World.h"
 //#include "EntityManager.h"
 
 using namespace std;

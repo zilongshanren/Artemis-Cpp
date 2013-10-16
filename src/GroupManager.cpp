@@ -1,5 +1,5 @@
-#include "GroupManager.h"
-#include "Entity.h"
+#include "Artemis/GroupManager.h"
+#include "Artemis/Entity.h"
 
 namespace artemis {
 	GroupManager::GroupManager() : empty_bag(1) {

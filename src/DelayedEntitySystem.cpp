@@ -1,5 +1,5 @@
-#include "DelayedEntitySystem.h"
-#include "World.h"
+#include "Artemis/DelayedEntitySystem.h"
+#include "Artemis/World.h"
 
 namespace artemis {
 

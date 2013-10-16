@@ -1,5 +1,5 @@
-#include "Component.h"
-#include "World.h"
+#include "Artemis/Component.h"
+#include "Artemis/World.h"
 
 namespace artemis {
 	

@@ -1,4 +1,4 @@
-#include "DelayedEntityProcessingSystem.h"
+#include "Artemis/DelayedEntityProcessingSystem.h"
 
 namespace artemis {
   
