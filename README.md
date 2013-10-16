@@ -24,6 +24,10 @@ It is very simple to compile Artemis-Cpp using CMake. Just follow these steps:
 8. `sudo make install`.
 9. Enjoy.
 
+### Mac OS X Framework
+
+You can use Artemis-Cpp as a Framework for Mac OS X development using the _Artemis.framework_ we provide or compile your own Framework using the XCode project inside the _XCode_ folder.
+
 ### PORTED CLASSES
 
 - Component
