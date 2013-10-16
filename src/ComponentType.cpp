@@ -1,4 +1,4 @@
-#include "ComponentType.h"
+#include "Artemis/ComponentType.h"
 namespace artemis {
 	
 	ComponentType::ComponentType() {

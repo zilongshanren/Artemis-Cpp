@@ -1,5 +1,5 @@
-#include "TagManager.h"
-#include "Entity.h"
+#include "Artemis/TagManager.h"
+#include "Artemis/Entity.h"
 
 namespace artemis {
   
