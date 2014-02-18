@@ -9,31 +9,11 @@
 /* Begin PBXBuildFile section */
 		22DDD8CB17FDB98F00751412 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22DDD8C917FDB98F00751412 /* InfoPlist.strings */; };
 		22DDD8DA17FDB98F00751412 /* Artemis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDD8BD17FDB98F00751412 /* Artemis.framework */; };
-		22DDD90017FDB9C100751412 /* Artemis.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8ED17FDB9C100751412 /* Artemis.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90117FDB9C100751412 /* BitSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8EE17FDB9C100751412 /* BitSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90217FDB9C100751412 /* Component.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8EF17FDB9C100751412 /* Component.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90317FDB9C100751412 /* ComponentMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F017FDB9C100751412 /* ComponentMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90417FDB9C100751412 /* ComponentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F117FDB9C100751412 /* ComponentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90517FDB9C100751412 /* ComponentTypeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F217FDB9C100751412 /* ComponentTypeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90617FDB9C100751412 /* DelayedEntityProcessingSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F317FDB9C100751412 /* DelayedEntityProcessingSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90717FDB9C100751412 /* DelayedEntitySystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F417FDB9C100751412 /* DelayedEntitySystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90817FDB9C100751412 /* Entity.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F517FDB9C100751412 /* Entity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90917FDB9C100751412 /* EntityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F617FDB9C100751412 /* EntityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90A17FDB9C100751412 /* EntityProcessingSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F717FDB9C100751412 /* EntityProcessingSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90B17FDB9C100751412 /* EntitySystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F817FDB9C100751412 /* EntitySystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90C17FDB9C100751412 /* GroupManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8F917FDB9C100751412 /* GroupManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90D17FDB9C100751412 /* ImmutableBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8FA17FDB9C100751412 /* ImmutableBag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90E17FDB9C100751412 /* SystemBitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8FB17FDB9C100751412 /* SystemBitManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD90F17FDB9C100751412 /* SystemManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8FC17FDB9C100751412 /* SystemManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD91017FDB9C100751412 /* TagManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8FD17FDB9C100751412 /* TagManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD91117FDB9C100751412 /* TypeInfoComparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8FE17FDB9C100751412 /* TypeInfoComparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22DDD91217FDB9C100751412 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DDD8FF17FDB9C100751412 /* World.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22DDD92217FDB9CD00751412 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91317FDB9CD00751412 /* Component.cpp */; };
 		22DDD92317FDB9CD00751412 /* ComponentType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91417FDB9CD00751412 /* ComponentType.cpp */; };
 		22DDD92417FDB9CD00751412 /* ComponentTypeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91517FDB9CD00751412 /* ComponentTypeManager.cpp */; };
 		22DDD92517FDB9CD00751412 /* DelayedEntityProcessingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91617FDB9CD00751412 /* DelayedEntityProcessingSystem.cpp */; };
 		22DDD92617FDB9CD00751412 /* DelayedEntitySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91717FDB9CD00751412 /* DelayedEntitySystem.cpp */; };
-		22DDD92717FDB9CD00751412 /* Entity in Resources */ = {isa = PBXBuildFile; fileRef = 22DDD91817FDB9CD00751412 /* Entity */; };
 		22DDD92817FDB9CD00751412 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91917FDB9CD00751412 /* Entity.cpp */; };
 		22DDD92917FDB9CD00751412 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91A17FDB9CD00751412 /* EntityManager.cpp */; };
 		22DDD92A17FDB9CD00751412 /* EntityProcessingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91B17FDB9CD00751412 /* EntityProcessingSystem.cpp */; };
@@ -43,6 +23,25 @@
 		22DDD92E17FDB9CD00751412 /* SystemManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD91F17FDB9CD00751412 /* SystemManager.cpp */; };
 		22DDD92F17FDB9CD00751412 /* TagManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD92017FDB9CD00751412 /* TagManager.cpp */; };
 		22DDD93017FDB9CD00751412 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22DDD92117FDB9CD00751412 /* World.cpp */; };
+		29E7A89C18B366B5007350E8 /* Artemis.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A88918B366B5007350E8 /* Artemis.h */; };
+		29E7A89D18B366B5007350E8 /* BitSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A88A18B366B5007350E8 /* BitSize.h */; };
+		29E7A89E18B366B5007350E8 /* Component.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A88B18B366B5007350E8 /* Component.h */; };
+		29E7A89F18B366B5007350E8 /* ComponentMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A88C18B366B5007350E8 /* ComponentMapper.h */; };
+		29E7A8A018B366B5007350E8 /* ComponentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A88D18B366B5007350E8 /* ComponentType.h */; };
+		29E7A8A118B366B5007350E8 /* ComponentTypeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A88E18B366B5007350E8 /* ComponentTypeManager.h */; };
+		29E7A8A218B366B5007350E8 /* DelayedEntityProcessingSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A88F18B366B5007350E8 /* DelayedEntityProcessingSystem.h */; };
+		29E7A8A318B366B5007350E8 /* DelayedEntitySystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89018B366B5007350E8 /* DelayedEntitySystem.h */; };
+		29E7A8A418B366B5007350E8 /* Entity.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89118B366B5007350E8 /* Entity.h */; };
+		29E7A8A518B366B5007350E8 /* EntityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89218B366B5007350E8 /* EntityManager.h */; };
+		29E7A8A618B366B5007350E8 /* EntityProcessingSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89318B366B5007350E8 /* EntityProcessingSystem.h */; };
+		29E7A8A718B366B5007350E8 /* EntitySystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89418B366B5007350E8 /* EntitySystem.h */; };
+		29E7A8A818B366B5007350E8 /* GroupManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89518B366B5007350E8 /* GroupManager.h */; };
+		29E7A8A918B366B5007350E8 /* ImmutableBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89618B366B5007350E8 /* ImmutableBag.h */; };
+		29E7A8AA18B366B5007350E8 /* SystemBitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89718B366B5007350E8 /* SystemBitManager.h */; };
+		29E7A8AB18B366B5007350E8 /* SystemManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89818B366B5007350E8 /* SystemManager.h */; };
+		29E7A8AC18B366B5007350E8 /* TagManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89918B366B5007350E8 /* TagManager.h */; };
+		29E7A8AD18B366B5007350E8 /* TypeInfoComparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89A18B366B5007350E8 /* TypeInfoComparator.h */; };
+		29E7A8AE18B366B5007350E8 /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E7A89B18B366B5007350E8 /* World.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,31 +60,11 @@
 		22DDD8CA17FDB98F00751412 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22DDD8CC17FDB98F00751412 /* Artemis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Artemis-Prefix.pch"; sourceTree = "<group>"; };
 		22DDD8D417FDB98F00751412 /* ArtemisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtemisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22DDD8ED17FDB9C100751412 /* Artemis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Artemis.h; path = ../../../include/Artemis.h; sourceTree = "<group>"; };
-		22DDD8EE17FDB9C100751412 /* BitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitSize.h; path = ../../../include/BitSize.h; sourceTree = "<group>"; };
-		22DDD8EF17FDB9C100751412 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Component.h; path = ../../../include/Component.h; sourceTree = "<group>"; };
-		22DDD8F017FDB9C100751412 /* ComponentMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentMapper.h; path = ../../../include/ComponentMapper.h; sourceTree = "<group>"; };
-		22DDD8F117FDB9C100751412 /* ComponentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentType.h; path = ../../../include/ComponentType.h; sourceTree = "<group>"; };
-		22DDD8F217FDB9C100751412 /* ComponentTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentTypeManager.h; path = ../../../include/ComponentTypeManager.h; sourceTree = "<group>"; };
-		22DDD8F317FDB9C100751412 /* DelayedEntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntityProcessingSystem.h; path = ../../../include/DelayedEntityProcessingSystem.h; sourceTree = "<group>"; };
-		22DDD8F417FDB9C100751412 /* DelayedEntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntitySystem.h; path = ../../../include/DelayedEntitySystem.h; sourceTree = "<group>"; };
-		22DDD8F517FDB9C100751412 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = ../../../include/Entity.h; sourceTree = "<group>"; };
-		22DDD8F617FDB9C100751412 /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityManager.h; path = ../../../include/EntityManager.h; sourceTree = "<group>"; };
-		22DDD8F717FDB9C100751412 /* EntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityProcessingSystem.h; path = ../../../include/EntityProcessingSystem.h; sourceTree = "<group>"; };
-		22DDD8F817FDB9C100751412 /* EntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntitySystem.h; path = ../../../include/EntitySystem.h; sourceTree = "<group>"; };
-		22DDD8F917FDB9C100751412 /* GroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupManager.h; path = ../../../include/GroupManager.h; sourceTree = "<group>"; };
-		22DDD8FA17FDB9C100751412 /* ImmutableBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImmutableBag.h; path = ../../../include/ImmutableBag.h; sourceTree = "<group>"; };
-		22DDD8FB17FDB9C100751412 /* SystemBitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemBitManager.h; path = ../../../include/SystemBitManager.h; sourceTree = "<group>"; };
-		22DDD8FC17FDB9C100751412 /* SystemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemManager.h; path = ../../../include/SystemManager.h; sourceTree = "<group>"; };
-		22DDD8FD17FDB9C100751412 /* TagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagManager.h; path = ../../../include/TagManager.h; sourceTree = "<group>"; };
-		22DDD8FE17FDB9C100751412 /* TypeInfoComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeInfoComparator.h; path = ../../../include/TypeInfoComparator.h; sourceTree = "<group>"; };
-		22DDD8FF17FDB9C100751412 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = ../../../include/World.h; sourceTree = "<group>"; };
 		22DDD91317FDB9CD00751412 /* Component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Component.cpp; path = ../../../src/Component.cpp; sourceTree = "<group>"; };
 		22DDD91417FDB9CD00751412 /* ComponentType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentType.cpp; path = ../../../src/ComponentType.cpp; sourceTree = "<group>"; };
 		22DDD91517FDB9CD00751412 /* ComponentTypeManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentTypeManager.cpp; path = ../../../src/ComponentTypeManager.cpp; sourceTree = "<group>"; };
 		22DDD91617FDB9CD00751412 /* DelayedEntityProcessingSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayedEntityProcessingSystem.cpp; path = ../../../src/DelayedEntityProcessingSystem.cpp; sourceTree = "<group>"; };
 		22DDD91717FDB9CD00751412 /* DelayedEntitySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayedEntitySystem.cpp; path = ../../../src/DelayedEntitySystem.cpp; sourceTree = "<group>"; };
-		22DDD91817FDB9CD00751412 /* Entity */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Entity; path = ../../../src/Entity; sourceTree = "<group>"; };
 		22DDD91917FDB9CD00751412 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = ../../../src/Entity.cpp; sourceTree = "<group>"; };
 		22DDD91A17FDB9CD00751412 /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityManager.cpp; path = ../../../src/EntityManager.cpp; sourceTree = "<group>"; };
 		22DDD91B17FDB9CD00751412 /* EntityProcessingSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityProcessingSystem.cpp; path = ../../../src/EntityProcessingSystem.cpp; sourceTree = "<group>"; };
@@ -95,6 +74,25 @@
 		22DDD91F17FDB9CD00751412 /* SystemManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SystemManager.cpp; path = ../../../src/SystemManager.cpp; sourceTree = "<group>"; };
 		22DDD92017FDB9CD00751412 /* TagManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TagManager.cpp; path = ../../../src/TagManager.cpp; sourceTree = "<group>"; };
 		22DDD92117FDB9CD00751412 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = World.cpp; path = ../../../src/World.cpp; sourceTree = "<group>"; };
+		29E7A88918B366B5007350E8 /* Artemis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Artemis.h; path = ../../../include/Artemis/Artemis.h; sourceTree = "<group>"; };
+		29E7A88A18B366B5007350E8 /* BitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitSize.h; path = ../../../include/Artemis/BitSize.h; sourceTree = "<group>"; };
+		29E7A88B18B366B5007350E8 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Component.h; path = ../../../include/Artemis/Component.h; sourceTree = "<group>"; };
+		29E7A88C18B366B5007350E8 /* ComponentMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentMapper.h; path = ../../../include/Artemis/ComponentMapper.h; sourceTree = "<group>"; };
+		29E7A88D18B366B5007350E8 /* ComponentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentType.h; path = ../../../include/Artemis/ComponentType.h; sourceTree = "<group>"; };
+		29E7A88E18B366B5007350E8 /* ComponentTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentTypeManager.h; path = ../../../include/Artemis/ComponentTypeManager.h; sourceTree = "<group>"; };
+		29E7A88F18B366B5007350E8 /* DelayedEntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntityProcessingSystem.h; path = ../../../include/Artemis/DelayedEntityProcessingSystem.h; sourceTree = "<group>"; };
+		29E7A89018B366B5007350E8 /* DelayedEntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntitySystem.h; path = ../../../include/Artemis/DelayedEntitySystem.h; sourceTree = "<group>"; };
+		29E7A89118B366B5007350E8 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = ../../../include/Artemis/Entity.h; sourceTree = "<group>"; };
+		29E7A89218B366B5007350E8 /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityManager.h; path = ../../../include/Artemis/EntityManager.h; sourceTree = "<group>"; };
+		29E7A89318B366B5007350E8 /* EntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityProcessingSystem.h; path = ../../../include/Artemis/EntityProcessingSystem.h; sourceTree = "<group>"; };
+		29E7A89418B366B5007350E8 /* EntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntitySystem.h; path = ../../../include/Artemis/EntitySystem.h; sourceTree = "<group>"; };
+		29E7A89518B366B5007350E8 /* GroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupManager.h; path = ../../../include/Artemis/GroupManager.h; sourceTree = "<group>"; };
+		29E7A89618B366B5007350E8 /* ImmutableBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImmutableBag.h; path = ../../../include/Artemis/ImmutableBag.h; sourceTree = "<group>"; };
+		29E7A89718B366B5007350E8 /* SystemBitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemBitManager.h; path = ../../../include/Artemis/SystemBitManager.h; sourceTree = "<group>"; };
+		29E7A89818B366B5007350E8 /* SystemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemManager.h; path = ../../../include/Artemis/SystemManager.h; sourceTree = "<group>"; };
+		29E7A89918B366B5007350E8 /* TagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagManager.h; path = ../../../include/Artemis/TagManager.h; sourceTree = "<group>"; };
+		29E7A89A18B366B5007350E8 /* TypeInfoComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeInfoComparator.h; path = ../../../include/Artemis/TypeInfoComparator.h; sourceTree = "<group>"; };
+		29E7A89B18B366B5007350E8 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = ../../../include/Artemis/World.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,25 +154,25 @@
 		22DDD8EB17FDB9AB00751412 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				22DDD8ED17FDB9C100751412 /* Artemis.h */,
-				22DDD8EE17FDB9C100751412 /* BitSize.h */,
-				22DDD8EF17FDB9C100751412 /* Component.h */,
-				22DDD8F017FDB9C100751412 /* ComponentMapper.h */,
-				22DDD8F117FDB9C100751412 /* ComponentType.h */,
-				22DDD8F217FDB9C100751412 /* ComponentTypeManager.h */,
-				22DDD8F317FDB9C100751412 /* DelayedEntityProcessingSystem.h */,
-				22DDD8F417FDB9C100751412 /* DelayedEntitySystem.h */,
-				22DDD8F517FDB9C100751412 /* Entity.h */,
-				22DDD8F617FDB9C100751412 /* EntityManager.h */,
-				22DDD8F717FDB9C100751412 /* EntityProcessingSystem.h */,
-				22DDD8F817FDB9C100751412 /* EntitySystem.h */,
-				22DDD8F917FDB9C100751412 /* GroupManager.h */,
-				22DDD8FA17FDB9C100751412 /* ImmutableBag.h */,
-				22DDD8FB17FDB9C100751412 /* SystemBitManager.h */,
-				22DDD8FC17FDB9C100751412 /* SystemManager.h */,
-				22DDD8FD17FDB9C100751412 /* TagManager.h */,
-				22DDD8FE17FDB9C100751412 /* TypeInfoComparator.h */,
-				22DDD8FF17FDB9C100751412 /* World.h */,
+				29E7A88918B366B5007350E8 /* Artemis.h */,
+				29E7A88A18B366B5007350E8 /* BitSize.h */,
+				29E7A88B18B366B5007350E8 /* Component.h */,
+				29E7A88C18B366B5007350E8 /* ComponentMapper.h */,
+				29E7A88D18B366B5007350E8 /* ComponentType.h */,
+				29E7A88E18B366B5007350E8 /* ComponentTypeManager.h */,
+				29E7A88F18B366B5007350E8 /* DelayedEntityProcessingSystem.h */,
+				29E7A89018B366B5007350E8 /* DelayedEntitySystem.h */,
+				29E7A89118B366B5007350E8 /* Entity.h */,
+				29E7A89218B366B5007350E8 /* EntityManager.h */,
+				29E7A89318B366B5007350E8 /* EntityProcessingSystem.h */,
+				29E7A89418B366B5007350E8 /* EntitySystem.h */,
+				29E7A89518B366B5007350E8 /* GroupManager.h */,
+				29E7A89618B366B5007350E8 /* ImmutableBag.h */,
+				29E7A89718B366B5007350E8 /* SystemBitManager.h */,
+				29E7A89818B366B5007350E8 /* SystemManager.h */,
+				29E7A89918B366B5007350E8 /* TagManager.h */,
+				29E7A89A18B366B5007350E8 /* TypeInfoComparator.h */,
+				29E7A89B18B366B5007350E8 /* World.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -187,7 +185,6 @@
 				22DDD91517FDB9CD00751412 /* ComponentTypeManager.cpp */,
 				22DDD91617FDB9CD00751412 /* DelayedEntityProcessingSystem.cpp */,
 				22DDD91717FDB9CD00751412 /* DelayedEntitySystem.cpp */,
-				22DDD91817FDB9CD00751412 /* Entity */,
 				22DDD91917FDB9CD00751412 /* Entity.cpp */,
 				22DDD91A17FDB9CD00751412 /* EntityManager.cpp */,
 				22DDD91B17FDB9CD00751412 /* EntityProcessingSystem.cpp */,
@@ -208,25 +205,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DDD90517FDB9C100751412 /* ComponentTypeManager.h in Headers */,
-				22DDD90217FDB9C100751412 /* Component.h in Headers */,
-				22DDD90B17FDB9C100751412 /* EntitySystem.h in Headers */,
-				22DDD90017FDB9C100751412 /* Artemis.h in Headers */,
-				22DDD91017FDB9C100751412 /* TagManager.h in Headers */,
-				22DDD90117FDB9C100751412 /* BitSize.h in Headers */,
-				22DDD90F17FDB9C100751412 /* SystemManager.h in Headers */,
-				22DDD90417FDB9C100751412 /* ComponentType.h in Headers */,
-				22DDD91117FDB9C100751412 /* TypeInfoComparator.h in Headers */,
-				22DDD90717FDB9C100751412 /* DelayedEntitySystem.h in Headers */,
-				22DDD90617FDB9C100751412 /* DelayedEntityProcessingSystem.h in Headers */,
-				22DDD91217FDB9C100751412 /* World.h in Headers */,
-				22DDD90D17FDB9C100751412 /* ImmutableBag.h in Headers */,
-				22DDD90317FDB9C100751412 /* ComponentMapper.h in Headers */,
-				22DDD90E17FDB9C100751412 /* SystemBitManager.h in Headers */,
-				22DDD90817FDB9C100751412 /* Entity.h in Headers */,
-				22DDD90917FDB9C100751412 /* EntityManager.h in Headers */,
-				22DDD90A17FDB9C100751412 /* EntityProcessingSystem.h in Headers */,
-				22DDD90C17FDB9C100751412 /* GroupManager.h in Headers */,
+				29E7A8A118B366B5007350E8 /* ComponentTypeManager.h in Headers */,
+				29E7A89E18B366B5007350E8 /* Component.h in Headers */,
+				29E7A8A718B366B5007350E8 /* EntitySystem.h in Headers */,
+				29E7A89C18B366B5007350E8 /* Artemis.h in Headers */,
+				29E7A8AC18B366B5007350E8 /* TagManager.h in Headers */,
+				29E7A89D18B366B5007350E8 /* BitSize.h in Headers */,
+				29E7A8AB18B366B5007350E8 /* SystemManager.h in Headers */,
+				29E7A8A018B366B5007350E8 /* ComponentType.h in Headers */,
+				29E7A8AD18B366B5007350E8 /* TypeInfoComparator.h in Headers */,
+				29E7A8A318B366B5007350E8 /* DelayedEntitySystem.h in Headers */,
+				29E7A8A218B366B5007350E8 /* DelayedEntityProcessingSystem.h in Headers */,
+				29E7A8AE18B366B5007350E8 /* World.h in Headers */,
+				29E7A8A918B366B5007350E8 /* ImmutableBag.h in Headers */,
+				29E7A89F18B366B5007350E8 /* ComponentMapper.h in Headers */,
+				29E7A8AA18B366B5007350E8 /* SystemBitManager.h in Headers */,
+				29E7A8A418B366B5007350E8 /* Entity.h in Headers */,
+				29E7A8A518B366B5007350E8 /* EntityManager.h in Headers */,
+				29E7A8A618B366B5007350E8 /* EntityProcessingSystem.h in Headers */,
+				29E7A8A818B366B5007350E8 /* GroupManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +304,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DDD8CB17FDB98F00751412 /* InfoPlist.strings in Resources */,
-				22DDD92717FDB9CD00751412 /* Entity in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +524,7 @@
 				22DDD8E717FDB98F00751412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22DDD8E817FDB98F00751412 /* Build configuration list for PBXNativeTarget "ArtemisTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +533,7 @@
 				22DDD8EA17FDB98F00751412 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
